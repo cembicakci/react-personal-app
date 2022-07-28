@@ -18,7 +18,8 @@ function App() {
         <Navbar />
         
         <Routes>
-          <Route path="/react-personal-app" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
           <Route path="/new-person" element={<NewPerson />} />
           <Route path="/favorite-person" element={<FavoritePerson />} />
         </Routes>
