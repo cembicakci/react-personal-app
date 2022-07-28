@@ -11,6 +11,7 @@ Live: https://cembicakci.github.io/react-personal-app/
 ## Tools
 * React
 * Context API
+* Google Firebase
 * Vanilla Css
 
 
