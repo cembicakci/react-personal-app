@@ -8,8 +8,10 @@ function NewPerson() {
   const navigate = useNavigate();
 
   function addPerson(person) {
+    console.log("person", person);
+
     fetch(
-      'https://personel-app-c7f69-default-rtdb.firebaseio.com/person.json',
+      'https://react-personal-app-default-rtdb.firebaseio.com/person.json',
       {
         method: 'POST',
         body: JSON.stringify(person),

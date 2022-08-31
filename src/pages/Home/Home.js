@@ -8,7 +8,7 @@ function Home() {
 
   useEffect(() => {
 
-    fetch('https://personel-app-c7f69-default-rtdb.firebaseio.com/person.json')
+    fetch('https://react-personal-app-default-rtdb.firebaseio.com/person.json')
       .then(response => {
         return response.json();
       }).then(data => {
